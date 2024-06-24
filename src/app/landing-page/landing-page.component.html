@@ -1,0 +1,14 @@
+<div class="landing-block">
+    <form #emailForm="ngForm" (ngSubmit)="onSubmitForm(emailForm)">
+        <!--
+        <label for="emailInput">Inscrivez-vous pour recevoir notre newsletter !</label>
+        <input type="email" id="emailInput" [(ngModel)]="userEmail" name="userEmail">
+        <button type="submit">OK!</button>
+        -->
+    </form>
+    <img src="https://lemagdesanimaux.ouest-france.fr/images/dossiers/2019-08/mini/blobfish-090045-650-400.jpg"
+        alt="Snapface logo">
+    <div class="landing-links">
+        <button (click)="onContinue()">Continuer vers Snapface</button>
+    </div>
+</div>
